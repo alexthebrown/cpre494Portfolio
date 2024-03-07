@@ -1,3 +1,11 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(./TOS_Title.ttf);
+    font-style: italic;
+  }
+#starTrek{
+    font-family: StarTrek;
+}
 nav{
     background-color: orange;
     margin: 0px;
@@ -5,4 +13,113 @@ nav{
 }
 nav a{
     align-items: right;
+}
+
+.navbar-nav{
+    align-content: right;
+}
+.mr-auto{
+    align-items: right;
+    align-content: right !important;
+    /* margin-right: 0px !important; */
+    margin-left: auto !important;
+}
+.contact-head h1{
+    font-size: 100px;
+    align-self: center;
+}
+.contact-head-container{
+    border: 10px solid #ffffff;
+    border-radius: 25px;
+    padding: 20px;
+    height: 400px;
+    margin-top: 0px;
+    padding-top: 125px;
+    padding-left: 27%;
+    align-items: center;
+    align-content: center;
+}
+.float-container{
+    border: 10px solid #ffffff;
+    border-radius: 25px;
+    padding: 20px;
+    height: 400px;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  .float-child{
+    width: 50%;
+    float: left;
+    padding: 20px;
+    display: block;
+    text-align: right;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  .float-child h1{
+    /* font-size: 100px; */
+    font-size: 100px;
+    color: white;
+  }
+  .float-child2{
+    width: 50%;
+    float: right;
+    padding: 20px;
+    /* background-color: rgb(92, 164, 228);
+    border-radius: 25px; */
+    word-wrap: break-word;
+    display: block;
+    padding-top: 6px;
+  }
+  .jumbotron{
+    background-color: #cc5803;
+  }
+  .smaller{
+    height: 300px;
+  }
+  .smaller-head-container{
+    height:100px;
+    padding-top: 15px;
+    padding-bottom:140px;
+  }
+  .card{
+    border-radius: 15px;
+  }
+  .project-list{
+    margin: 32px;
+  }
+  .document-list{
+    margin: 32px;
+  }
+  .divider{
+    background-color: gray;
+    height: 5px;
+    width: 90%;
+    align-self: center;
+    margin-left: 5%;
+    border-radius: 15px;
+  }
+  .seniorDesign{
+    border-color: goldenrod;
+  }
+  .form-row {
+    margin-bottom: 10px;
+}
+
+.form-input {
+    display: block;
+}
+
+.form-error {
+    color: red;
+}
+.card-img-top{
+    border-radius: 15px;
+}
+.bg-body-tertiary{
+    background-color: #332D2D;
+    background-color: #cc5803;
+}
+.container{
+    height: 100px;
 }

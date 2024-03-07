@@ -3,39 +3,163 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <title>Alex Brown's Portfolio - Home</title>
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/product/">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
-    <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-md bg-dark sticky-top border-bottom" data-bs-theme="dark">
-        <div class="container">
-          <a class="navbar-brand d-md-none" href="#">
-            <img src="./images/carLogo.svg" style="height: 50px; width: 50px;">
-            Catalog of Items
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#" style="padding-left: 20px;">Alex Brown's Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Projects
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="#offcanvas" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="#offcanvas" aria-labelledby="#offcanvasLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="#offcanvasLabel">Catalog of Items</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav flex-grow-1 justify-content-between">
-                <li class="nav-item"><a class="nav-link" href="#">
-                  <img src="./images/carLogo.svg" style="height: 50px; width: 50px;">
-                </a></li>
-                <li class="nav-item-text"><a class="nav-link" href="index.html">Cars</a></li>
-                <li class="nav-item-text"><a class="nav-link" href="otherCatalog.html">Car Parts</a></li>
-                <li class="nav-item-text"><a class="nav-link" href="about.html">About Us</a></li>
-              </ul>
-            </div>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="petrolpal.html">COM S 309 Application - Petrol Pal</a>
+            <a class="dropdown-item" href="coms319.html">COM S 319 MidTerm Project - Colector's Cove</a>
+            <a class="dropdown-item" href="tricorder.html">Working Star Trek Tricorder</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="flutr.html">Senior Design Project - Flutr</a>
           </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Documents
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="ger.html">General Education Reflection</a>
+            <a class="dropdown-item" href="cr.html">Cumulative Reflection</a>
+            <a class="dropdown-item" href="ethics.html">CprE 394 Ethics Paper</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="resume.html">Resume</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="jumbotron">
+    <div class="float-container">
+      <div class="float-child"><h1>Welcome to</h1><h1>Alex Brown's</h1><h1>Portfolio</h1></div>
+      <div class="float-child2"><img src="./images/headshot Background Removed.png" alt="Alex Brown headshot" height="374px"></div>
+    </div>
+    </div>
+    <div class="project-list">
+      <h1 style="padding-left: 20px;">My Projects</h1>
+      <div id="col" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3 card-deck d-flex align-items-stretch col-sm">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./images/petrol-logo.png" alt="Petrol Pal">
+        <div class="card-body">
+          <h5 class="card-title">COM S 309 - Petrol Pal</h5>
+          <p class="card-text">An Android App designed by my COM S 309 group meant to help people find the cheapest gas near them.</p>
+          <a href="petrolpal.html" class="btn btn-primary">View</a>
         </div>
-      </nav>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./images/collector-thumb.png" alt="Collector's Cove">
+        <div class="card-body">
+          <h5 class="card-title">COM S 319 - Collector's Cove</h5>
+          <p class="card-text">This ongoing project will someday help collectors organize their media collections, letting them know what they have, and where they have it. It is being developed as part of my midterm project and will also be continued for my final project in COM S 319 at Iowa State University.</p>
+          <a href="coms319.html" class="btn btn-primary">View</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./images/tricorder.avif" alt="Working Tricorder">
+        <div class="card-body">
+          <h5 class="card-title">Working Star Trek Tricorder</h5>
+          <p class="card-text">What happens when you take a toy prop and fill it with hobby electronics and some code? </p>
+          <a href="tricorder.html" class="btn btn-primary">View</a>
+        </div>
+      </div>
+      <div class="card seniorDesign" style="width: 18rem;">
+        <img class="card-img-top" src="./images/flutr-logo.png" alt="Flutr Logo">
+        <div class="card-body">
+          <h5 class="card-title">Senior Design - Flutr App</h5>
+          <p class="card-text">Flutr is the ultimate cataloging tool for entomoligists working in a butterfly garden. This tool is being created to meet the needs of Reiman Gardens, but will be spread throughout the industry to try and standardize the field.</p>
+          <a href="flutr.html" class="btn btn-primary">View</a>
+        </div>
+      </div>  
+    </div>
+  </div>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    
+  </div>
+  <div class="divider-outer"><div class="divider"></div></div>
+  <div class="document-list">
+    <h1 style="padding-left: 20px;">My Documents</h1>
+    <div id="col" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3 card-deck d-flex align-items-stretch col-sm">
+    <div class="card seniorDesign" style="width: 18rem;">
+      <img class="card-img-top" src="./images/resume-thumb.png" alt="Document Thumbnail">
+      <div class="card-body">
+        <h5 class="card-title">Resume</h5>
+        <a href="resume.html" class="btn btn-primary">View More</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="..." alt="Document Thumbnail">
+      <div class="card-body">
+        <h5 class="card-title">General Education Reflection</h5>
+        <a href="ger" class="btn btn-primary">View More</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="..." alt="Document Thumbnail">
+      <div class="card-body">
+        <h5 class="card-title">Cumulative Reflction</h5>
+        <a href="cr.html" class="btn btn-primary">View More</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="./images/ethics-thumb.png" alt="Document Thumbnail">
+      <div class="card-body">
+        <h5 class="card-title">Engineering Ethics Essay</h5>
+        <a href="ethics.html" class="btn btn-primary">View More</a>
+      </div>
+    </div>  
+  </div>
+</div>
+<footer class="bg-body-tertiary text-center">
+  <div class="container p-4 pb-0">
+    <section class="mb-4">
+      <a
+        data-mdb-ripple-init
+        class="btn text-white btn-floating m-1"
+        style="background-color: #0082ca;"
+        href="https://www.linkedin.com/in/alex-brown-989391231/"
+        role="button"
+        ><img src="./images/linkedin.png" alt="linkedin logo" style="height: 40px;width: 40px;"></a>
+      <a
+        data-mdb-ripple-init
+        class="btn text-white btn-floating m-1"
+        style="background-color: #5a5959;"
+        href="https://github.com/alexthebrown"
+        role="button"
+        ><img src="./images/github.png" alt="github logo" style="height: 40px;width: 40px;"></a>
+    </section>
+  </div>
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05); color: white;">
+    © 2024 Copyright: Alex Brown
+  </div>
+</footer>
 </body>
 </html>
