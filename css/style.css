@@ -186,3 +186,6 @@ nav a{
   align-self: center;
   margin-left: 23%;
 }
+.holder{
+  word-wrap: break-word;
+}
