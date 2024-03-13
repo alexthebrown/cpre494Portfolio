@@ -161,3 +161,28 @@ nav a{
     float: right; */
     text-align: center;
 }
+.bolden{
+  font-weight: bolder;
+}
+.logos{
+  padding-top: 15px;
+}
+.more-space{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.skills{
+  width: 100%;
+  text-align: center;
+}
+.skill-list{
+  font-size: x-large;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+
+}
+.inner-div{
+  align-self: center;
+  margin-left: 23%;
+}

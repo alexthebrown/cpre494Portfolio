@@ -19,7 +19,7 @@
   
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="index.html">Home </a>
         </li>
         <li class="nav-item">
@@ -32,7 +32,7 @@
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="petrolpal.html">COM S 309 Application - Petrol Pal</a>
             <a class="dropdown-item" href="coms319.html">COM S 319 MidTerm Project - Colector's Cove</a>
-            <a class="dropdown-item" href="tricorder.html">Working Star Trek Tricorder <span class="sr-only">(current)</span></a>
+            <a class="dropdown-item active" href="tricorder.html">Working Star Trek Tricorder <span class="sr-only">(current)</span></a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="flutr.html">Senior Design Project - Flutr</a>
           </div>
@@ -57,10 +57,39 @@
   </nav>
   <div class="jumbotron smaller" id="trekkie">
     <div class="contact-head-container smaller-head-container trek">
-      <div class="contact-head" style="color: white;margin: 0px;"><h1><span id="starTrek">Star Trek</span> Tricorder</h1></div>
+      <div class="contact-head" style="color: white;margin: 0px;"><h1><span id="starTrek">STAR TREK    </span> Tricorder</h1></div>
     </div>
   </div>
-  <div></div>
+  <div class="content">
+    <div class="explination half-cut">
+      <h1>Summary</h1>
+      <p>As a huge Star Trek fan, the Tricorder has always been a neat device. Now that we have extremely small computers such as the Raspberry Pi, we can start to make some of the devices that 60's sci-fi writers dreamed up as part of the distant utopian future.</p>
+      <p>By taking a Diamond Select Replica of the Star Trek The Original Series Tricorder, taking out all of it's electronics and replacing them with a Raspberry Pi Zero, a rechargable battery, and a 2 inch LCD Screen, the former toy can now do far more than a computer the size of a large room could do when the prop was originally designed.</p>
+      <p>The small screen does make the computer a little hard to use, which leads to the need to design a GUI for the device.</p>
+      <p>I designed a GUI using the Tkinter library in Python. The program allows you to iterate through all MP4's stored on the device, meant to be episodes from the TV Show. There is also a page called "Sensors" that uses an API from the National Weather Service to pull the current forecast for wherever the program is set to search.</p>
+    </div>
+    <div class="half-cut-match">
+      <img src="./images/tricorder.avif" alt="Petrol Pal Logo" style="height: 400px;">
+    </div>
+    <div class="divider-outer" style="padding-top: 20px;padding-bottom: 20px;"><div class="divider"></div></div>
+    <div class="skills half-cut" style="padding-left: 250px; padding-top: 70px;">
+      <h3>Skills Strengthened:</h3>
+      <ul>
+        <li>Python</li>
+        <li>TKinter</li>
+        <li>GET Requests</li>
+        <li>GPIO Buttons for Pi</li>
+        <li>Product Development</li>
+      </ul>
+    </div>
+    <div class="video half-cut-match">
+      <img src="./images/tricordergui.png" alt="tricorders gui">
+    </div>
+    <div class="divider-outer" style="padding-top: 20px;padding-bottom: 20px;"><div class="divider"></div></div>
+    <div class="links">
+      <a href="https://github.com/alexthebrown/TricorderV2" class="btn btn-dark" target="_blank">View Project on GitHub</a>
+    </div>
+  </div>
   <footer class="bg-body-tertiary text-center">
     <div class="container p-4 pb-0">
       <section class="mb-4">
