@@ -31,7 +31,9 @@ nav a{
 }
 .contact-head h1{
     font-size: 100px;
-    align-self: center;
+    align-content: center;
+    translate: translate(0,-50%);
+    padding-top: 10%;
 }
 .contact-head-container{
     border: 10px solid #ffffff;
